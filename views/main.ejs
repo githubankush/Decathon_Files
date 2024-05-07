@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://api.flaticon.com/v2/items/icons">
+    <link rel="stylesheet" href="/stylesheets/main_page_style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src=""  class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/c_account">Sign Up</a></li>
+                <li><a href="/login">Login</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    <section id="hero">
+        <h2>Local Artisans Market:</h2>
+        <h1>Crafted with Love</h1>
+        <p style="color:#000">Save more by using coupons & get upto 70% off!</p>
+        <a href="/shop"><button>Shop Now</button></a>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="https://i.pinimg.com/originals/d5/cd/3a/d5cd3a91e72f549aafe99bbea9e6c61e.jpg" alt="">
+            <h6>Bamboo handicraft
+            </h6>
+        </div>
+        <div class="fe-box">
+            <img src="https://th.bing.com/th/id/OIP.8eSG3zc2OMwD1pftYKQCbwHaGV?w=199&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <h6>Kondapalli toys</h6>
+        </div>
+        <div class="fe-box">
+            <img src="https://images.jdmagicbox.com/quickquotes/listicle/listicle_1695199049912_mcyc0_996x664.jpg" alt="">
+            <h6>Wood carving
+            </h6>
+        </div>
+        <div class="fe-box">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <h6> Stone carving</h6>
+        </div>
+        <div class="fe-box">
+            <img src="https://th.bing.com/th/id/OIP.0XIi3AOg5btJJCF7a4kvzQHaHa?rs=1&pid=ImgDetMain" alt="">
+            <h6>Coir products</h6>
+        </div>
+        <div class="fe-box">
+            <img src="https://th.bing.com/th/id/OIP.Sr14WVzTWB8Q6vj_OGnJTgHaJK?w=156&h=193&c=7&r=0&o=5&pid=1.7" alt="">
+            <h6> Kathakkali mask</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured</h2>
+        
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='/profile';">
+                <img src="./img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Stich Clothes</span>
+                    <h5>Anita Dongre</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>  
+            </div>
+            <div class="pro" onclick="window.location.href='/profile';">
+                <img src="./img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>Stone carving</span>
+                    <h5>Ravindra Ready</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>  
+            </div>
+            <div class="pro" onclick="window.location.href='/profile';">
+                <img src="./img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>Tijori</span>
+                    <h5>Mansi gupta</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                 
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>  
+            </div>
+            <div class="pro" onclick="window.location.href='/profile';">
+                <img src="./img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>Tasar silk</span>
+                    <h5>Vijay Mahajan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>  
+            </div>
+
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo-footer" src="./img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> PIEMR sheme no. 78 ,vijay nagr,indore</p>
+            <p><strong>Telephone: </strong>+62123456789 /+62987654321</p>
+            <p><strong>Timing:</strong> 08:00 - 16:00</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Confirmation</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Download by Google Play store</p>
+            <div class="row">
+                <button class="pay google"><i class="fa-brands fa-google-play"></i>   Google Play</button>
+                <button class="pay apple">
+                    <i class="fa-brands fa-apple"></i> 
+                    App Store
+                </button>
+            </div>
+            <p>payment </p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>©2023</p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
